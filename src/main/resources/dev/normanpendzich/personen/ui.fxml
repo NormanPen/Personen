@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.normanpendzich.personen.Controller">
+   <children>
+      <BorderPane prefHeight="43.0" prefWidth="600.0">
+         <center>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+      <TextField fx:id="textField" />
+       <Label fx:id="textLabel" prefHeight="351.0" prefWidth="176.0" />
+   </children>
+</VBox>
